@@ -1,0 +1,5 @@
+
+[sncast.dev-profile]
+account = "wheval"
+accounts-file = 'C:\Users\MARY/.starknet_accounts/starknet_open_zeppelin_accounts.json'
+url = "http://127.0.0.1:5050"

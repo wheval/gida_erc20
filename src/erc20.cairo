@@ -27,10 +27,9 @@ pub trait IERC20<TContractState> {
 
 #[starknet::contract]
 mod Erc20{
-   
-use starknet::event::EventEmitter;
-use super::IERC20;
-use super::ContractAddress;
+    use starknet::event::EventEmitter;
+    use super::IERC20;
+    use super::ContractAddress;
     use starknet::storage::{Map,StorageMapReadAccess,StorageMapWriteAccess};
     const TOTAL_SUPPLY:u256 = 100_000_000;
     #[storage]
